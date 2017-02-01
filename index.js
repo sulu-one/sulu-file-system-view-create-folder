@@ -36,7 +36,6 @@ Command.prototype.createFolder = function createFolder() {
 
 var Plugin = function (client) {
 	this.command = new Command(); 
-	client.app.registerHotKey("f7", this.command.createFolder);
 };
 
 module.exports = Plugin;
