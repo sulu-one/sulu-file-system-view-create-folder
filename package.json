@@ -1,15 +1,15 @@
 {
   "suluPackage": {
-    "hotkeys" : [
+    "hotkeys": [
       {
-        "key" : "f7" , 
-        "function" : "createFolder"
+        "key": "f7",
+        "function": "createFolder"
       }
     ]
   },
   "name": "sulu-file-system-view-create-folder",
   "description": "SULU folder creator",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "index.js",
   "scripts": {
     "bump": "npm version patch && git push && git push --tags && npm publish",
